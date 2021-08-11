@@ -12,6 +12,10 @@ import java.awt.event.*;
 public class main{
 
     public static void main(String[] args) {
+        System.out.println("MORSE CODE TRAINSLATOR - S.ABILASH");
+        System.out.println("Morse History: ");
+        System.out.println("");
+        
         HashMap<Character, String> mem = new HashMap<Character, String>();
         mem.put('a',".-");
         mem.put('b',"-...");
@@ -136,6 +140,7 @@ public class main{
 
                     }
                     System.out.println("Output: "+output);
+                    System.out.println("");
                     field.setText(output);
                 }
             }
@@ -168,6 +173,7 @@ public class main{
                         }
                     }
                     System.out.println("Output: "+output);
+                    System.out.println("");
                     field.setText(output);
                 }
             }
